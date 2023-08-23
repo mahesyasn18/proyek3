@@ -11,7 +11,6 @@
 .item11 { grid-area: abu; }
 .item12 { grid-area: orange; }
 
-
 .grid-container {
   display: grid;
   grid-template-areas:
@@ -22,12 +21,9 @@
     'birutua abu abu ungu'
     'birutua orange orange ungu';
     height: 100vh;
-
-  
 }
 
-.grid-container > div {
-
+.grid {
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
@@ -36,51 +32,49 @@
   justify-content: center;
 }
 
-.black{
+.bg-black{
     background-color: black;
-    
 }
-.yellow{
+.bg-yellow{
     background-color: yellow;
 }
 
-.green{
+.bg-green{
     background-color: green;
 }
-.brown{
+.bg-brown{
     background-color: brown;
 }
 
-.pink{
+.bg-pink{
     background-color: pink;
-
 }
 
-.blue{
+.bg-blue{
     background-color: lightblue;
 }
 
-.white{
+.bg-white{
     background-color: white;
 }
 
-.red{
+.bg-red{
     background-color: red;
 }
 
-.purple{
+.bg-purple{
     background-color: purple;
 }
 
-.darkblue{
+.bg-darkblue{
     background-color: blue;
 }
 
-.grey{
+.bg-grey{
     background-color: grey;
 }
 
-.orange{
+.bg-orange{
     background-color: orange;
 }
 .text-center{
