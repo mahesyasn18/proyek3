@@ -1,0 +1,96 @@
+.item1 { grid-area: kuning; }
+.item2 { grid-area: hitam; }
+.item3 { grid-area: hijau; }
+.item4 { grid-area: coklat; }
+.item5 { grid-area: pink; }
+.item6 { grid-area: biru; }
+.item7 { grid-area: merah; }
+.item8 { grid-area: putih; }
+.item9 { grid-area: ungu; }
+.item10 { grid-area: birutua; }
+.item11 { grid-area: abu; }
+.item12 { grid-area: orange; }
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'kuning hitam hitam hitam '
+    'hijau coklat pink biru'
+    'merah putih pink ungu'
+    'birutua abu abu ungu'
+    'birutua abu abu ungu'
+    'birutua orange orange ungu';
+    height: 100vh;
+
+  
+}
+
+.grid-container > div {
+
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.black{
+    background-color: black;
+    
+}
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
+.brown{
+    background-color: brown;
+}
+
+.pink{
+    background-color: pink;
+
+}
+
+.blue{
+    background-color: lightblue;
+}
+
+.white{
+    background-color: white;
+}
+
+.red{
+    background-color: red;
+}
+
+.purple{
+    background-color: purple;
+}
+
+.darkblue{
+    background-color: blue;
+}
+
+.grey{
+    background-color: grey;
+}
+
+.orange{
+    background-color: orange;
+}
+.text-center{
+    text-align: center;
+}
+
+.primary-text-color{
+    color: white;
+}
+
+
+
+
